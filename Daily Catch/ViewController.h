@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+{
+    UICollectionView *_collectionView;
+}
 
+@property (weak, nonatomic) IBOutlet UIImageView *photo1;
+@property (weak, nonatomic) IBOutlet UIImageView *photo2;
+@property (weak, nonatomic) IBOutlet UIImageView *photo3;
+@property (weak, nonatomic) IBOutlet UIImageView *photo4;
 
 @end
 

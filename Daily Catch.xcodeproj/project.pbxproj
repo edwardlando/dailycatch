@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA2F9331A11A54600518F79 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F92F1A11A54600518F79 /* 3.png */; };
+		BCA2F9341A11A54600518F79 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F9301A11A54600518F79 /* 4.png */; };
+		BCA2F9351A11A54600518F79 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F9311A11A54600518F79 /* 1.png */; };
+		BCA2F9361A11A54600518F79 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA2F9321A11A54600518F79 /* 2.png */; };
 		BCD76CE41A115B48009E68E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD76CE31A115B48009E68E1 /* main.m */; };
 		BCD76CE71A115B48009E68E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD76CE61A115B48009E68E1 /* AppDelegate.m */; };
 		BCD76CEA1A115B48009E68E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD76CE91A115B48009E68E1 /* ViewController.m */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCA2F92F1A11A54600518F79 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BCA2F9301A11A54600518F79 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		BCA2F9311A11A54600518F79 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BCA2F9321A11A54600518F79 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		BCD76CDE1A115B48009E68E1 /* Daily Catch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Catch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD76CE21A115B48009E68E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD76CE31A115B48009E68E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +104,10 @@
 		BCD76CE11A115B48009E68E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCA2F92F1A11A54600518F79 /* 3.png */,
+				BCA2F9301A11A54600518F79 /* 4.png */,
+				BCA2F9311A11A54600518F79 /* 1.png */,
+				BCA2F9321A11A54600518F79 /* 2.png */,
 				BCD76CE21A115B48009E68E1 /* Info.plist */,
 				BCD76CE31A115B48009E68E1 /* main.m */,
 			);
@@ -201,7 +213,11 @@
 			files = (
 				BCD76CED1A115B48009E68E1 /* Main.storyboard in Resources */,
 				BCD76CF21A115B48009E68E1 /* LaunchScreen.xib in Resources */,
+				BCA2F9361A11A54600518F79 /* 2.png in Resources */,
 				BCD76CEF1A115B48009E68E1 /* Images.xcassets in Resources */,
+				BCA2F9351A11A54600518F79 /* 1.png in Resources */,
+				BCA2F9341A11A54600518F79 /* 4.png in Resources */,
+				BCA2F9331A11A54600518F79 /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +430,7 @@
 				BCD76D031A115B48009E68E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCD76D041A115B48009E68E1 /* Build configuration list for PBXNativeTarget "Daily CatchTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				BCD76D061A115B48009E68E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
